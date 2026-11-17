@@ -1,7 +1,6 @@
 # Changelog
 
-Zeekret Dash is the next version of the Blindspot app for the Zeekr 7X head unit. Version names restarted at 1.00
-when it was renamed. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
+Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.16
 - Home: on cars without adjustable damping (not the Performance trim) the Damping card stays in its place, greyed out
@@ -59,15 +58,6 @@ when it was renamed. Download the latest from **[zeekret.pages.dev](https://zeek
 - Fixes: the app no longer closes when changing tabs after Aim; the Car page no longer redraws in a loop.
 
 ## Zeekret Dash 1.00
-- Renamed **Zeekret Dash**. New **Home** screen of cards; Blindspot is one section (Camera / Display / Aim).
+- First **Zeekret Dash** release. New **Home** screen of cards; Blindspot is one section (Camera / Display / Aim).
 - **Car page:** drive mode, steering, sunroof shade, rear fog light, AC, temperature zones, tailgate height.
 - **Automation:** "When … only if … do …" rules.
-
-## Blindspot 1.93 and earlier
-- 1.93: **Car's blindspot lamp**: the lamp in the door mirror gives that side's picture a red edge; above 60 km/h the
-  camera opens without the indicator.
-- 1.91: new app ID.
-- 1.89: new factory defaults.
-- 1.87: smooth video (dash-cam storage work moved off the camera).
-- 1.80: mirror view Rearview / Slide-in / Blindspot.
-- 1.79: HUD slide-in for every trigger.
