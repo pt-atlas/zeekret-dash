@@ -1,9 +1,9 @@
 # Zeekret Dash (head unit)
 
 A head-unit app for the **Zeekr 7X**: a blindspot camera on the HUD and the centre screen when you indicate,
-a digital rearview mirror, a 4-camera dash cam, car controls and automations. English.
+a digital rearview mirror, a 4-camera dash cam, car controls and automations.
 
-**คู่มือภาษาไทย (Thai guide):** [ฟีเจอร์ทั้งหมด](docs/guide/features.md) · [ระบบอัตโนมัติ](docs/guide/automation.md)
+**Guides:** [Automation guide with examples](docs/guide/automation.md)
 
 **⬇ Download:** open **[zeekret.pages.dev](https://zeekret.pages.dev/)** in the browser **on the car's head-unit
 screen** and download **Zeekret Dash** (Experimental). Opening the link on a phone or computer won't install it on the car.
@@ -119,7 +119,7 @@ For towing, when the car's low-speed emergency braking would brake for the trail
 - Hold the card to see the rules on the Automation page.
 
 ### Automation
-"**When** … **only if** … **do** …". Open the **Automation** card and turn it on. Full guide (Thai):
+"**When** … **only if** … **do** …". Open the **Automation** card and turn it on. Full guide with examples:
 [docs/guide/automation.md](docs/guide/automation.md).
 - **When:** the car is switched on or off; shift to P, D or R; speed reaches or drops to a number, or enters or
   leaves a range (0–200 km/h in 5 km/h steps); outside temperature rises or drops to a number; it gets dark or

@@ -1,51 +1,53 @@
-# Zeekret Dash: ระบบอัตโนมัติ (Automation)
+# Zeekret Dash: Automation guide
 
-เมื่อมีอะไรเกิดขึ้นกับรถ Zeekret Dash จะทำสิ่งที่คุณเลือกให้ กฎแต่ละข้อเขียนแบบ
-"**เมื่อ** … **เฉพาะถ้า** … **ทำ** …"
+When something happens on the car, Zeekret Dash does what you picked. Each rule reads
+"**When** … **only if** … **do** …".
 
-[ฟีเจอร์ทั้งหมด](features.md) · [English README](../../README.md)
+[Back to the README](../../README.md) · [Changelog](../../CHANGELOG.md)
 
-## เริ่มใช้
-1. แตะการ์ด **Automation** ที่หน้า Home แล้วเปิดสวิตช์หลัก (กฎทำงานเฉพาะตอนสวิตช์หลักเปิด)
-2. กด **Add rule** เลือก **เมื่อ** เลือก **เฉพาะถ้า** (ไม่บังคับ) แล้วเลือก **ทำ** อย่างน้อยหนึ่งอย่าง
-3. กด **Try it now** เพื่อทดสอบสิ่งที่จะทำทันที **ทดสอบตอนจอดก่อน**
-4. เปิด/ปิดกฎแต่ละข้อได้ แก้ไขหรือลบได้
+## Getting started
+1. Tap the **Automation** card on Home and turn on the main switch (rules only run while it's on).
+2. Tap **Add rule**, pick a **When**, an optional **Only if**, and at least one **Do**.
+3. Tap **Try it now** to run the rule's actions straight away. **Test parked first.**
+4. Each rule can be switched on or off, edited or deleted.
 
-## เมื่อ (When)
-- สตาร์ทรถ / ดับรถ
-- เข้าเกียร์ P / D / R
-- ความเร็ว **ถึง** หรือ **ลดลงถึง** ค่าที่ตั้ง หรือ **เข้า** / **ออก** จากช่วงความเร็ว (0–200 กม./ชม. ทีละ 5)
-- อุณหภูมิภายนอก **ขึ้นถึง** หรือ **ลดลงถึง** ค่าที่ตั้ง
-- ฟ้ามืด / ฟ้าสว่าง
-- ฝนเริ่มตก / ฝนหยุด
+## When
+- The car is switched on / off
+- Shift to P / D / R
+- Speed **reaches** or **drops to** a number, or **enters** / **leaves** a range (0–200 km/h in 5 km/h steps)
+- Outside temperature **rises to** or **drops to** a number
+- It gets dark / it gets light
+- Rain starts / rain stops
 
-## เฉพาะถ้า (Only if, ไม่บังคับ)
-- วัน: วันทำงาน หรือ วันหยุดสุดสัปดาห์
-- เกียร์: อยู่ที่ P / D / R
-- แสง: ตอนมืด / ตอนสว่าง
-- ฝน: ขณะฝนตก / ขณะแห้ง
-- ความเร็ว: มากกว่า / น้อยกว่า / ระหว่าง
-- อุณหภูมิภายนอก: มากกว่า / น้อยกว่า
+## Only if (optional)
+- Days: workdays or the weekend
+- Gear: in P / D / R
+- Light: when dark / when light
+- Rain: while raining / while dry
+- Speed: above / below / between
+- Outside temperature: above / below
 
-## ทำ (Do) เรียงตามลำดับ
-- **ควบคุมรถ:** Acceleration mode, Steering, Damping (เฉพาะ Performance), ม่านหลังคา, ไฟตัดหมอกหลัง,
-  เบรกฉุกเฉินความเร็วต่ำ, แอร์, โซนอุณหภูมิ, ความสูงประตูท้าย
-- **สั่งแอป:** เปิด/ปิดกล้องจุดบอด, แสดงบน HUD / จอกลาง / ทั้งสอง, เปิด/ปิดกระจกมองหลัง, Mirror view,
-  กันแสงจ้า, Night dimming, เปิด/ปิดกล้องติดรถ
+## Do (in order)
+- **Car controls:** acceleration mode, steering, damping (Performance trim only), sunroof shade, rear fog light,
+  low-speed emergency braking, air conditioning, temperature zones, tailgate opening height.
+- **App actions:** Blindspot camera on / off, show it on HUD / head unit / both, rearview mirror open / close,
+  mirror view, mirror anti-glare, night dimming, dash cam on / off.
 
-## ไม่ทำงานซ้ำไปมา
-- กฎทำงานเมื่อ **มีการเปลี่ยนแปลง** ไม่ใช่ตามสถานะ เช่น "สตาร์ทรถ" ทำงานตอนรถเปลี่ยนจากดับเป็นติด
-- กฎความเร็ว / อุณหภูมิ จะทำงานอีกครั้งต่อเมื่อค่ากลับผ่านตัวเลขที่ตั้งไปก่อน (ความเร็ว 5 กม./ชม., อุณหภูมิ 1 °C)
-- ความเร็วและฝนทำงานได้ไม่เกินทุก 30 วินาที อุณหภูมิไม่เกินทุก 60 วินาที
+## No flickering
+- A rule runs on a **change**, not on a state. "The car is switched on" runs when the car goes from off to on.
+- A speed or temperature rule only runs again after the value has moved back past its number first
+  (5 km/h for speed, 1 °C for temperature).
+- Speed and rain rules run at most once every 30 seconds, temperature rules once every 60 seconds.
 
-## ตัวอย่างการใช้งาน
-| อยากได้ | เมื่อ | เฉพาะถ้า | ทำ |
+## Examples
+| You want | When | Only if | Do |
 |---|---|---|---|
-| ขับสนุกบนทางด่วน | ความเร็วถึง 90 กม./ชม. | | Acceleration mode: Sport |
-| กลับมานุ่มในเมือง | ความเร็วลดลงถึง 60 กม./ชม. | | Acceleration mode: Comfort |
-| ฝนตกให้เห็นชัดขึ้น | ฝนเริ่มตก | ตอนมืด | ไฟตัดหมอกหลัง: เปิด |
-| กลางคืนไม่แสบตา | ฟ้ามืด | | กันแสงจ้า: High, Night dimming: เปิด |
-| ถอยจอดแล้วปิดกระจก | เข้าเกียร์ P | | กระจกมองหลัง: ปิด |
-| ลากพ่วง | สตาร์ทรถ / ความเร็วถึง 10 กม./ชม. | | เบรกฉุกเฉินความเร็วต่ำ: ปิด (การ์ด **Trailer mode** สร้างให้อัตโนมัติ) |
+| Sportier on the expressway | Speed reaches 90 km/h | | Acceleration mode: Sport |
+| Softer back in town | Speed drops to 60 km/h | | Acceleration mode: Comfort |
+| Be seen in the rain | Rain starts | When dark | Rear fog light: On |
+| No glare at night | It gets dark | | Mirror anti-glare: High, Night dimming: On |
+| Mirror away when parked | Shift to P | | Rearview mirror: Close |
+| Towing a trailer | Car switched on / speed reaches 10 km/h | | Low-speed emergency braking: Off (the **Trailer mode** card sets these up for you) |
 
-> รถเป็นผู้ตัดสินสุดท้ายเสมอ บางคำสั่งรถอาจไม่ทำในบางสถานะ (เช่น ไฟตัดหมอกหลังทำงานเฉพาะตอนเปิดไฟหน้า)
+> The car always has the last word: some commands only work in some states (for example, the rear fog light only
+> works while the headlights are on).
