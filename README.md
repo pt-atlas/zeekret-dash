@@ -14,6 +14,7 @@ while Google Maps navigates on your phone.
 
 **⬇ Download:** open **[zeekret.pages.dev](https://zeekret.pages.dev/)** in the browser **on the car's head-unit
 screen** and download **Zeekret Dash** (Experimental). Opening the link on a phone or computer won't install it on the car.
+The same APK is also on the [releases page](https://github.com/pt-atlas/zeekret-dash/releases/latest) (e.g. to copy it to a USB stick).
 What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 
 > This repository holds **documentation only, no source code**. Zeekret Dash is closed-source.
@@ -24,6 +25,10 @@ What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 > the factory 360° view, the reversing camera or the car's own blind-spot warning. Always look before you turn or
 > change lane. Not affiliated with Zeekr, Geely or ECARX. Use at your own risk: no warranty, no responsibility for
 > anything that happens from using it.
+
+> 🔒 **A Zeekr owner's private project, on a private server. No personal data is collected** — no location, no
+> account, no driving data, no analytics. The only link to our server is the car's code: its licence code, and for battery at
+> arrival its pair code — and what travels with that code is locked so the server can't read it.
 
 ## Install
 
