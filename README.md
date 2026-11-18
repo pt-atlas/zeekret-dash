@@ -190,7 +190,7 @@ If something goes wrong, open **About ▸ Fault log** and send it for checking.
   "NO SIGNAL" shows only after 1 s.
 
 ## Licence
-A **7-day free trial**, then a paid licence per car (price and how to pay on the app's **Licence** page and at
+A **30-day free trial**, then a paid licence per car (price and how to pay on the app's **Licence** page and at
 zeekret.pages.dev). The licence is checked offline once issued, survives updates and reinstalls, and a reinstall
 doesn't restart the trial. A licence can be revoked in case of misuse.
 
