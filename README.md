@@ -1,7 +1,14 @@
 # Zeekret Dash (head unit)
 
 A head-unit app for the **Zeekr 7X**: a blindspot camera on the HUD and the centre screen when you indicate,
-a digital rearview mirror, a 4-camera dash cam, car controls and automations.
+a digital rearview mirror, a 4-camera dash cam, car controls, automations, and the **battery % you'll arrive with**
+while Google Maps navigates on your phone.
+
+| App | Runs on | What it does |
+|---|---|---|
+| **[Zeekret](https://github.com/pt-atlas/zeekret-updates)** | Phone + Wear OS watch | Bluetooth digital key, remote control, stats, widget |
+| **Zeekret Dash** (this one) | Car head unit | Everything below |
+| **[Zeekret Maps Link](https://github.com/pt-atlas/zeekret-maps-link)** | Phone | Sends your live Google Maps route to Zeekret Dash for **battery at arrival** |
 
 **Guides:** [Automation guide with examples](docs/guide/automation.md)
 
@@ -41,7 +48,10 @@ A grid of cards, three wide. **Tap** a card to act, **hold** it to open its sett
 | 2 | Mirror view · Car's blindspot lamp · Night dimming |
 | 3 | Dash cam · Automation · Trailer mode |
 | 4 | Acceleration mode · Steering · Damping |
-| 5 | Rear fog light · Licence · About |
+| 5 | Rear fog light · Battery at arrival · Licence |
+| 6 | About |
+
+The side menu: Home · Blindspot · Dash cam · Car · **Map link** · Automation · Licence · About.
 
 On cars without adjustable damping (not the Performance trim) the Damping card stays in its place, greyed out and
 marked **Not available**.
@@ -73,9 +83,9 @@ Indicate, and the camera on that side appears. It goes away when the indicator s
 A digital mirror over the head-unit screen. Turn it on with the **Rearview mirror** card; its button appears in D.
 - **Mirror view** (tap the card, or long-press the mirror button):
   - **Rearview:** the rear camera as a mirror.
-  - **Slide-in** (default): the rear picture in the middle; the left and right blindspot pictures slide in at the
-    sides when they're needed.
-  - **Blindspot:** both side pictures.
+  - **Slide-in:** the rear picture in the middle; the left and right blindspot pictures slide in at the sides when
+    they're needed.
+  - **Blindspot** (default): both side pictures.
 - Drag to move and pinch to resize at any time; the shape never changes. A **Reset** button shows for 5 s.
 - **Night anti-glare:** Off / Low (default) / High. Calms bright headlights in the rear picture.
 - Settings: translucency, Slide-in side zoom / height / angle and middle width, Blindspot zoom / height /
@@ -91,6 +101,36 @@ A digital mirror over the head-unit screen. Turn it on with the **Rearview mirro
   Locked clips are never deleted.
 - **Playback** tab: browse, filter (all / locked only) and play clips, with a USB check and "where to find the
   clips" help.
+
+### Battery at arrival (side menu ▸ Map link)
+Shows the **battery % you'll arrive with** as one small line on the head unit (and / or the HUD):
+**🔋 69% 🏁** for a destination, **🔋 62% 🏠** for home. **Orange** below 20 %, **red** below 5 %; if you won't make
+it, **🔋 0%** in red. Tap the **Battery at arrival** card on Home to turn it on or off; hold it, or pick **Map link** in
+the side menu, for its settings.
+
+Where the destination comes from, first match wins:
+1. **Live Google Maps route** from the phone app **[Zeekret Maps Link](https://github.com/pt-atlas/zeekret-maps-link)**:
+   the exact km left on Google's route, updated every few seconds. Change the destination in Google Maps and the car
+   follows. With stops, the % is for the final destination.
+2. **A shared place:** in Google Maps on the phone tap a place ▸ **Share ▸ Zeekret ▸ Battery at arrival** (Zeekret
+   phone app .60 or newer), or a **saved place** picked on the Map link page. Km left = the car's GPS straight-line
+   distance × 1.3. It hides when you arrive (within 300 m).
+3. **Home** ("This is home" on the Map link page): shown when you're more than 1 km away and nothing else is set.
+
+How to set it up:
+- **Link the phone:** the Map link page shows the car's **pair code** (like `ABCD-EFGH`) under *Link with the phone
+  app*. Type the same code into Zeekret Maps Link and / or the Zeekret phone app (Settings).
+- **Allow location** on the Map link page (needed for shared places and home).
+- **Battery size:** 75 or 100 kWh. **Where it shows:** head unit, HUD or both.
+- On the head unit, **drag** the panel to move it and **pinch** to resize it; a **Reset** button shows for 5 s.
+- It hides while the car is in **P** and while a blindspot camera picture is showing.
+
+How the % is worked out: with the car's average consumption (sent by the phone), battery % − km × kWh per 100 km ÷
+battery size; without it, battery % × (range − km left) ÷ range. It's an estimate: keep an eye on the car's own range.
+
+Privacy: the phone sends only km left, arrival time (and for a shared place, its position and name), **locked
+(AES-256-GCM)** with a key only your phone and your car know. The server in between can't read it and deletes it
+after 24 h.
 
 ### Car controls
 On the **Car** page, and as Home cards for the main ones.

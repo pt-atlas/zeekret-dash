@@ -2,6 +2,34 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.22 betas (1.22.beta1 – beta11)
+- Side menu: new **Map link** item (the Battery at arrival settings) between Car and Automation.
+- Battery at arrival panel: placed just left of the mirror button by default, no background; % text bigger, icons smaller.
+- Tried and removed: showing the panel only while Android Auto is on screen (the head unit doesn't allow it).
+
+## Zeekret Dash 1.22
+- Battery at arrival panel without a background (just the icon and the number).
+- New defaults: mirror view **Blindspot**; Aim (left / right) horizon 26°, swing 46°, lift 6°, view width 130 %.
+
+## Zeekret Dash 1.21
+- New app icon. Battery at arrival panel: new default place, size and look.
+
+## Zeekret Dash 1.20
+- Battery at arrival panel is one short line: **🔋 69% 🏁** (🏠 for home, red 0 % when you won't make it). Twice as
+  big, hidden in P.
+
+## Zeekret Dash 1.19
+- Battery at arrival **live from Google Maps** with the new phone app Zeekret Maps Link: exact km left and arrival time,
+  follows every destination change. **Home** and **saved places** (the last 10 shared). Clear destination.
+
+## Zeekret Dash 1.18
+- Battery at arrival from a **place shared from Google Maps** on the phone (Share ▸ Zeekret ▸ Battery at arrival). The
+  destination is end-to-end encrypted. Asks for location.
+
+## Zeekret Dash 1.17
+- New **Battery at arrival** card and page: the battery % you'll arrive with, on the head unit and / or the HUD. Drag to
+  move, pinch to resize. Orange below 20 %, red below 5 %.
+
 ## Zeekret Dash 1.16
 - Home: on cars without adjustable damping (not the Performance trim) the Damping card stays in its place, greyed out
   and marked "Not available"; tapping it only explains why.
