@@ -8,7 +8,7 @@ while Google Maps navigates on your phone.
 |---|---|---|
 | **[Zeekret](https://github.com/pt-atlas/zeekret-updates)** | Phone + Wear OS watch | Bluetooth digital key, remote control, stats, widget |
 | **Zeekret Dash** (this one) | Car head unit | Everything below |
-| **[Zeekret Maps Link](https://github.com/pt-atlas/zeekret-maps-link)** | Phone | Sends your live Google Maps route to Zeekret Dash for **battery at arrival** |
+| **[Zeekret Maps Link](https://github.com/pt-atlas/zeekret-maps-link)** | Phone | Sends your live Google Maps route to Zeekret Dash for **battery at arrival**. Works without the Zeekret phone app; link it with Zeekret Dash's pair code |
 
 **Guides:** [Automation guide with examples](docs/guide/automation.md)
 
