@@ -145,6 +145,8 @@ Suggests the **3 nearest fast chargers (DC, 120 kW and up)** on the head unit wh
 - Tap the **Nearby Charger** card on Home to turn it on. It adds two automation rules (and turns Automation on):
   1. **Car switched on**, only if the battery is **below 30 %**;
   2. **Battery drops to 30 %**.
+- **Tap a charger** to navigate there: it opens in Google Maps on your phone (and Android Auto), with
+  [Zeekret Maps Link](https://github.com/pt-atlas/zeekret-maps-link) 1.2 or newer while Google Maps navigation runs.
 - The suggestions card stays until you close it (✕). While you drive, the distances update and after 10 km it
   searches again.
 - Off: both rules are removed.
