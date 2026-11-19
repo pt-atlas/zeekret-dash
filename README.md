@@ -13,8 +13,10 @@ while Google Maps navigates on your phone.
 **Guides:** [Automation guide with examples](docs/guide/automation.md)
 
 **⬇ Download:** open **[zeekret.pages.dev](https://zeekret.pages.dev/)** in the browser **on the car's head-unit
-screen** and download **Zeekret Dash** (Experimental). Opening the link on a phone or computer won't install it on the car.
-The same APK is also on the [releases page](https://github.com/pt-atlas/zeekret-dash/releases/latest) (e.g. to copy it to a USB stick).
+screen** and download **Zeekret Dash** (Experimental) under **🚗 Zeekr 7X side app**. Opening the link on a phone or
+computer won't install it on the car. The newest build is always on zeekret.pages.dev; the
+[releases page](https://github.com/pt-atlas/zeekret-dash/releases/latest) may hold an older one.
+The same page has a **📱 Phone apps** section with Zeekret and Zeekret Maps Link.
 What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 
 > This repository holds **documentation only, no source code**. Zeekret Dash is closed-source.
@@ -53,10 +55,9 @@ A grid of cards, three wide. **Tap** a card to act, **hold** it to open its sett
 | 2 | Mirror view · Car's blindspot lamp · Night dimming |
 | 3 | Dash cam · Automation · Trailer mode |
 | 4 | Acceleration mode · Steering · Damping |
-| 5 | Rear fog light · Battery at arrival · Licence |
-| 6 | About |
+| 5 | Nearby Charger · Battery at arrival · Rear fog light |
 
-The side menu: Home · Blindspot · Dash cam · Car · **Map link** · Automation · Licence · About.
+Licence and About are in the side menu. The side menu: Home · Blindspot · Dash cam · Car · **Map link** · Automation · Licence · About.
 
 On cars without adjustable damping (not the Performance trim) the Damping card stays in its place, greyed out and
 marked **Not available**.
@@ -108,8 +109,9 @@ A digital mirror over the head-unit screen. Turn it on with the **Rearview mirro
   clips" help.
 
 ### Battery at arrival (side menu ▸ Map link)
-Shows the **battery % you'll arrive with** as one small line on the head unit (and / or the HUD):
-**🔋 69% 🏁** for a destination, **🔋 62% 🏠** for home. **Orange** below 20 %, **red** below 5 %; if you won't make
+Shows the **battery % you'll arrive with** on the head unit and / or the HUD (default: both).
+On the head unit it's one small line; on the HUD it's two centred lines with no background, with the km left
+and the arrival time underneath: **🔋 76% 🏁** / **23.4 km · 07:24**. **🔋 69% 🏁** for a destination, **🔋 62% 🏠** for home. **Orange** below 20 %, **red** below 5 %; if you won't make
 it, **🔋 0%** in red. Tap the **Battery at arrival** card on Home to turn it on or off; hold it, or pick **Map link** in
 the side menu, for its settings.
 
@@ -128,7 +130,8 @@ How to set it up:
 - **Allow location** on the Map link page (needed for shared places and home).
 - **Battery size:** 75 or 100 kWh. **Where it shows:** head unit, HUD or both.
 - On the head unit, **drag** the panel to move it and **pinch** to resize it; a **Reset** button shows for 5 s.
-- It hides while the car is in **P** and while a blindspot camera picture is showing.
+- It hides while the car is in **P**. On the head unit it also hides while a blindspot camera picture is showing;
+  on the HUD it stays up the whole time you drive.
 
 How the % is worked out: with the car's average consumption (sent by the phone), battery % − km × kWh per 100 km ÷
 battery size; without it, battery % × (range − km left) ÷ range. It's an estimate: keep an eye on the car's own range.
@@ -136,6 +139,19 @@ battery size; without it, battery % × (range − km left) ÷ range. It's an est
 Privacy: the phone sends only km left, arrival time (and for a shared place, its position and name), **locked
 (AES-256-GCM)** with a key only your phone and your car know. The server in between can't read it and deletes it
 after 24 h.
+
+### Nearby Charger
+Suggests the **3 nearest fast chargers (DC, 120 kW and up)** on the head unit when your battery gets low.
+- Tap the **Nearby Charger** card on Home to turn it on. It adds two automation rules (and turns Automation on):
+  1. **Car switched on**, only if the battery is **below 30 %**;
+  2. **Battery drops to 30 %**.
+- The suggestions card stays until you close it (✕). While you drive, the distances update and after 10 km it
+  searches again.
+- Off: both rules are removed.
+- Charger search is part of the licence and is switched on per car. Without it the card is greyed out and marked
+  **Licence required**, and every charger rule is greyed out too. When it's switched on for your car, the card turns
+  on by itself.
+- You can also make your own rules with the **Suggest chargers** action (pick the minimum charging speed).
 
 ### Car controls
 On the **Car** page, and as Home cards for the main ones.
@@ -159,20 +175,22 @@ changes anything on the car.
 ### Trailer mode
 For towing, when the car's low-speed emergency braking would brake for the trailer behind you.
 - **On:** switches low-speed emergency braking **off** now, every time the car is switched on, and again when the
-  speed reaches 10 km/h (two automation rules, which also turns Automation on).
-- **Off:** stops those rules. It does **not** switch the braking back on: do that on the Car page.
+  speed reaches 10 km/h (two automation rules, which also turns Automation on). The head-unit **mirror switches to
+  Blindspot** view, so you see along the trailer.
+- **Off:** stops those rules and puts the mirror back to the view you had before. It does **not** switch the braking
+  back on: do that on the Car page.
 - Hold the card to see the rules on the Automation page.
 
 ### Automation
 "**When** … **only if** … **do** …". Open the **Automation** card and turn it on. Full guide with examples:
 [docs/guide/automation.md](docs/guide/automation.md).
 - **When:** the car is switched on or off; shift to P, D or R; speed reaches or drops to a number, or enters or
-  leaves a range (0–200 km/h in 5 km/h steps); outside temperature rises or drops to a number; it gets dark or
-  light; rain starts or stops.
+  leaves a range (0–200 km/h in 5 km/h steps); outside temperature rises or drops to a number; the battery rises or drops to a
+  %; it gets dark or light; rain starts or stops.
 - **Only if** (optional): workdays or weekend; gear in P, D or R; dark or light; raining or dry; speed above, below
-  or between; outside temperature above or below.
+  or between; outside temperature above or below; battery above or below a %.
 - **Do**, in order: any car control above, plus app actions: Blindspot camera on / off, show it on HUD / head unit /
-  both, rearview mirror open / close, mirror view, mirror anti-glare, night dimming, dash cam on / off.
+  both, rearview mirror open / close, mirror view, mirror anti-glare, night dimming, dash cam on / off, suggest chargers.
 - **No flickering:** a rule runs on a change, not a state. A speed or temperature rule only fires again after the
   value has moved back past its number, and at most once every 30 s (speed, rain) or 60 s (temperature).
 - **Try it now** runs a rule's actions straight away. Test car actions parked first.

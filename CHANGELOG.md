@@ -2,6 +2,19 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.22 betas (1.22.beta12 – beta30)
+- New **Nearby Charger** card: suggests the 3 nearest fast chargers (120 kW+) when the car is switched on below 30 %
+  and when the battery drops to 30 %. Needs charger search switched on in the licence (greyed out, "Licence required",
+  otherwise). The suggestions card stays until ✕, updates distances while driving and searches again after 10 km.
+- Automation: battery triggers (**battery rises / drops to %**), battery condition (**above / below %**) and a
+  **Suggest chargers** action.
+- **Trailer mode** also switches the mirror to Blindspot; Off puts back the view you had.
+- Home: row 4 Acceleration mode · Steering · Damping, row 5 Nearby Charger · Battery at arrival · Rear fog light.
+  Licence and About moved to the side menu only.
+- Battery at arrival on the HUD: two centred lines, **🔋 76% 🏁** and **23.4 km · 07:24**, no background, placed
+  higher; stays up while driving (also over a blindspot picture). Default **Show on: Both**.
+- The licence refreshes when you open the app (at most once a minute).
+
 ## Zeekret Dash 1.22 betas (1.22.beta1 – beta11)
 - Side menu: new **Map link** item (the Battery at arrival settings) between Car and Automation.
 - Battery at arrival panel: placed just left of the mirror button by default, no background; % text bigger, icons smaller.
