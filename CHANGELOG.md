@@ -2,6 +2,10 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.23 betas (1.23.beta1 – beta5)
+- Battery at arrival panel on the head unit: default spot about 9.4 cm further left than 1.23 (same height), text and
+  icons 6 % bigger. Every car moves to the new spot and size once after updating; Reset goes there from then on.
+
 ## Zeekret Dash 1.23
 - Battery at arrival panel on the head unit: **one fixed default spot** (lower right, just left of the mirror button).
   Moving or resizing the rearview mirror no longer moves it, and **Reset** always puts it back there. A spot you
