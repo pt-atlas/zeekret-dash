@@ -2,6 +2,11 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.25 betas
+- **1.25.beta1:** HUD battery panel line 3 = a small coloured **traffic bar of the next 50 km** (blue clear, orange slow,
+  red jam; white dot = your car), from Zeekret Maps Link 1.4 (Android 16 phone, Google Maps navigating). Only the battery
+  % turns orange / red when low. Time left over an hour reads **1 h 25 m**.
+
 ## Zeekret Dash 1.25
 - **Link by QR:** Map link (side menu) shows the pair code as a QR. The Zeekret phone app (.64) and Zeekret Maps Link
   (1.3) link to the car by scanning it (**Scan car code**), no typing. **New code** breaks every link at once.

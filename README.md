@@ -116,6 +116,8 @@ Shows the **battery % you'll arrive with** on the head unit and / or the HUD (de
 - **HUD:** two centred lines with no background, the **arrival time on top** and the battery % with the km left
   under it: **🏁 07:24** / **🔋 76% · 23.4 km**. Without an arrival time (a shared place or home) the top line shows
   the km instead: **🏁 23.4 km** / **🔋 76%**.
+- **Traffic bar (1.25 beta 1+):** line 3 on the HUD is a small coloured bar of the next 50 km (blue clear, orange slow,
+  red jam), when Zeekret Maps Link 1.4 sends Google Maps' traffic.
 - **Colours follow the %:** 🔋 white from 21 %, **🪫 orange** from 1 to 20 %, **🪫 0% red with a red glow** if you won't
   make it.
 
