@@ -132,8 +132,9 @@ Where the destination comes from, first match wins:
 3. **Home** ("This is home" on the Map link page): shown when you're more than 1 km away and nothing else is set.
 
 How to set it up:
-- **Link the phone:** the Map link page shows the car's **pair code** (like `ABCD-EFGH`) under *Link with the phone
-  app*. Type the same code into Zeekret Maps Link and / or the Zeekret phone app (Settings).
+- **Link the phone:** the Map link page shows the car's **pair code** (like `ABCD-EFGH`) and a **QR** under *Link with
+  the phone app*. In Zeekret Maps Link and / or the Zeekret phone app (Settings ▸ Zeekret Dash) tap **Scan car code** and
+  point the phone at the QR, or type the code. **Unlink** in the phone app forgets the car.
 - **Allow location** on the Map link page (needed for shared places and home).
 - **Battery size:** 75 or 100 kWh. **Where it shows:** head unit, HUD or both.
 - On the head unit, **drag** the panel to move it and **pinch** to resize it; a **Reset** button shows for 5 s.
