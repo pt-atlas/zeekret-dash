@@ -2,6 +2,11 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.26 betas (pre-release)
+- **1.26.beta1:** the HUD traffic bar shows about the **next 15 minutes** of driving (10–30 km, from Google Maps'
+  own average speed for the rest of the route): about 10 km in town, up to 30 km on the highway. A short jam is always
+  at least 3 px wide, so it never disappears. Near the destination the bar ends at the destination with a 🏁 flag.
+
 ## Zeekret Dash 1.26
 - Everything from 1.25 beta 1: HUD **traffic bar of the next 50 km** (with Zeekret Maps Link 1.4.1), only the battery %
   coloured, time left **1 h 25 m**.
