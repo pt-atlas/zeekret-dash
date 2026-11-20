@@ -109,11 +109,18 @@ A digital mirror over the head-unit screen. Turn it on with the **Rearview mirro
   clips" help.
 
 ### Battery at arrival (side menu ▸ Map link)
-Shows the **battery % you'll arrive with** on the head unit and / or the HUD (default: both).
-On the head unit it's one small line; on the HUD it's two centred lines with no background, with the km left
-and the arrival time underneath: **🔋 76% 🏁** / **23.4 km · 07:24**. **🔋 69% 🏁** for a destination, **🔋 62% 🏠** for home. **Orange** below 20 %, **red** below 5 %; if you won't make
-it, **🔋 0%** in red. Tap the **Battery at arrival** card on Home to turn it on or off; hold it, or pick **Map link** in
-the side menu, for its settings.
+Shows the **battery % you'll arrive with** on the head unit and / or the HUD (default: both). Hidden in P.
+- **Head unit:** one small line, **🔋 76% 🏁** (**🏠** instead of 🏁 for home). It sits at the lower right, just left
+  of the mirror button. Drag it to move it, pinch to resize; after a move a **Reset** button shows for 5 s and puts
+  it back to that spot and size.
+- **HUD:** two centred lines with no background, the **arrival time on top** and the battery % with the km left
+  under it: **🏁 07:24** / **🔋 76% · 23.4 km**. Without an arrival time (a shared place or home) the top line shows
+  the km instead: **🏁 23.4 km** / **🔋 76%**.
+- **Colours follow the %:** 🔋 white from 21 %, **🪫 orange** from 1 to 20 %, **🪫 0% red with a red glow** if you won't
+  make it.
+
+Tap the **Battery at arrival** card on Home to turn it on or off; hold it, or pick **Map link** in the side menu, for its
+settings.
 
 Where the destination comes from, first match wins:
 1. **Live Google Maps route** from the phone app **[Zeekret Maps Link](https://github.com/pt-atlas/zeekret-maps-link)**:
