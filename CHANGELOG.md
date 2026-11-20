@@ -5,6 +5,9 @@ Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pag
 ## Zeekret Dash 1.24 betas (pre-release)
 - **1.24.beta1:** HUD battery panel line 1 shows the time left next to the arrival time: **🏁 08:25 · 18 min**
   (**1 h 25** over an hour). Only with a live Google Maps route (Zeekret Maps Link).
+- **1.24.beta2:** the car can be linked to the Zeekret phone app (type the car's pair code in Zeekret ▸ Settings ▸
+  Zeekret Dash; Zeekret .63 or newer). The phone then shows this car's licence with a **Renew** button. Only a one-way
+  hash of the pair code is sent, never the code itself.
 
 ## Zeekret Dash 1.24
 - **Lane keep assist** On / Off: new car control on the Car page and as an Automation action ("Then").
