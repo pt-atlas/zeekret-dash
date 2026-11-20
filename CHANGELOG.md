@@ -2,6 +2,13 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.23
+- Battery at arrival panel on the head unit: **one fixed default spot** (lower right, just left of the mirror button).
+  Moving or resizing the rearview mirror no longer moves it, and **Reset** always puts it back there. A spot you
+  dragged it to yourself stays until you tap Reset.
+- Battery at arrival icon follows the shown %: 🔋 21–100 %, 🪫 orange 1–20 %, 🪫 red with a red glow at 0 %
+  (head unit and HUD).
+
 ## Zeekret Dash 1.22 betas (1.22.beta12 – beta30)
 - New **Nearby Charger** card: suggests the 3 nearest fast chargers (120 kW+) when the car is switched on below 30 %
   and when the battery drops to 30 %. Needs charger search switched on in the licence (greyed out, "Licence required",
