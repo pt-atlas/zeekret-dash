@@ -3,6 +3,8 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.26 betas (pre-release)
+- **1.26.beta6:** the HUD traffic bar is 1.5x thicker, the 🏁 destination flag 2.5x bigger, and the bar sits 20 px
+  lower.
 - **1.26.beta5:** the HUD traffic bar moved up another 20 px, to 165 px above the HUD's lower edge.
 - **1.26.beta4:** the HUD traffic bar moved up another 25 px, to 145 px above the HUD's lower edge (at 120 px it sat
   right at the edge of the visible area).
