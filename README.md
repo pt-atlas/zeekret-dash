@@ -166,6 +166,7 @@ On the **Car** page, and as Home cards for the main ones.
 | Sunroof shade | Closed / 25 / 50 / 75 % / Open | The car decides when the shade may move |
 | Rear fog light | On / Off | Only while the headlights are on |
 | Low-speed emergency braking | On / Off | When off, the car won't brake for you at low speed |
+| Lane keep assist | On / Off | Same switch as in the car's own menu (new in 1.24) |
 | Air conditioning | On / Off | |
 | Temperature zones | Same both sides / Separate | |
 | Tailgate opening height | 50 – 100 % | How far the power tailgate opens |

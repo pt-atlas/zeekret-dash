@@ -29,7 +29,7 @@ When something happens on the car, Zeekret Dash does what you picked. Each rule 
 
 ## Do (in order)
 - **Car controls:** acceleration mode, steering, damping (Performance trim only), sunroof shade, rear fog light,
-  low-speed emergency braking, air conditioning, temperature zones, tailgate opening height.
+  low-speed emergency braking, lane keep assist, air conditioning, temperature zones, tailgate opening height.
 - **App actions:** Blindspot camera on / off, show it on HUD / head unit / both, rearview mirror open / close,
   mirror view, mirror anti-glare, night dimming, dash cam on / off.
 

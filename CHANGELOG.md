@@ -2,6 +2,14 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.24
+- **Lane keep assist** On / Off: new car control on the Car page and as an Automation action ("Then").
+- HUD battery panel: **arrival time on top** (🏁 08:25), battery % and km below (🔋 43% · 12 km), 5 mm higher.
+- New defaults (fresh install and the Reset buttons; your saved settings stay): mirror view **Slide-in**; Slide-in side
+  zoom 110 %, side height 6°; Blindspot mirror zoom 67 %, inner ↔ outer 0°; Aim (left / right) swing 45°, lift 11°,
+  view width 135 %.
+- Includes the 1.23 betas: battery panel on the head unit further left and 6 % bigger.
+
 ## Zeekret Dash 1.23 betas (1.23.beta1 – beta5)
 - Battery at arrival panel on the head unit: default spot about 9.4 cm further left than 1.23 (same height), text and
   icons 6 % bigger. Every car moves to the new spot and size once after updating; Reset goes there from then on.
