@@ -3,6 +3,8 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.26 betas (pre-release)
+- **1.26.beta9:** floating **Trailer** button right above the mirror button (same size, 5 mm gap): tap = Trailer mode
+  on / off like the Home card; green while on.
 - **1.26.beta8:** the HUD traffic bar is 10 px thick (12 px in beta 6–7), the white car dot 22 px (was 18) and the 🏁
   destination flag 25 px (was 28).
 - **1.26.beta7:** the HUD 🏁 destination flag is 28 px (35 px in beta 6).
