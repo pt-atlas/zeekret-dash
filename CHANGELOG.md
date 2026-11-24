@@ -3,6 +3,8 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.26 betas (pre-release)
+- **1.26.beta11:** the Trailer button while on: dark, thick amber ring, amber trailer (beta 10 was white); the trailer
+  drawing sits 2 px further left inside its circle.
 - **1.26.beta10:** the Trailer button while Trailer mode is on: white with a dark trailer and an amber ring (was green).
 - **1.26.beta9:** floating **Trailer** button right above the mirror button (same size, 5 mm gap): tap = Trailer mode
   on / off like the Home card; green while on.
