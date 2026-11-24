@@ -3,6 +3,9 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.26 betas (pre-release)
+- **1.26.beta12:** the head-unit blindspot panel is always Medium (Size option removed); drag to move it, pinch to resize
+  it (shape kept); place and size are remembered and logged (Display ▸ Reset panel place and size). The rearview
+  mirror's saved spot is logged when it opens.
 - **1.26.beta11:** the Trailer button while on: dark, thick amber ring, amber trailer (beta 10 was white); the trailer
   drawing sits 2 px further left inside its circle.
 - **1.26.beta10:** the Trailer button while Trailer mode is on: white with a dark trailer and an amber ring (was green).
