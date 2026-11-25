@@ -3,6 +3,8 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.27 betas (pre-release)
+- **1.27.beta3:** the floating panel is wider: it now covers the **left 80 % of the screen** (was half), full height,
+  5 % see-through, with every page of the app. Keep your eyes on the road: let a passenger use the panel, or stop first.
 - **1.27.beta2:** the floating panel now shows **every page of the app** over the left half of the screen, full height,
   5 % see-through. Clip playback and the Aim live preview stay P-only; typing and permission questions need the app's
   own screen, parked. A second tap on its button closes it, and it makes way for a blindspot picture. A tap on a car
