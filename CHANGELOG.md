@@ -2,6 +2,9 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.27
+- Stability update.
+
 ## Zeekret Dash 1.26 betas (pre-release)
 - **1.26.beta12:** the head-unit blindspot panel is always Medium (Size option removed); drag to move it, pinch to resize
   it (shape kept); place and size are remembered and logged (Display ▸ Reset panel place and size). The rearview

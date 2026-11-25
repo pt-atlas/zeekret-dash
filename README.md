@@ -70,7 +70,7 @@ Indicate, and the camera on that side appears. It goes away when the indicator s
   the car toward the rear, and mirrored like a real mirror.
 - **HUD pictures slide in** from the HUD's outer edge and slide out again (0.2 s). The HUD picture is sized to the
   part of the HUD you can actually see.
-- **Head-unit panel:** Small / Medium (default) / Fullscreen, on the right side.
+- **Head-unit panel:** drag it to move, pinch to resize; the place and size are remembered (reset in Blindspot ▸ Display).
 - **Blindspot ▸ Aim:** swing toward the rear, lift, level the horizon and view width, with a live preview.
 - **Blindspot ▸ Display:** HUD view width, HUD transparency, and **Show border on the HUD (10 s)** to check where the
   picture sits.
@@ -116,7 +116,7 @@ Shows the **battery % you'll arrive with** on the head unit and / or the HUD (de
 - **HUD:** two centred lines with no background, the **arrival time on top** and the battery % with the km left
   under it: **🏁 07:24** / **🔋 76% · 23.4 km**. Without an arrival time (a shared place or home) the top line shows
   the km instead: **🏁 23.4 km** / **🔋 76%**.
-- **Traffic bar (1.25 beta 1+):** line 3 on the HUD is a small coloured bar of the next 50 km (blue clear, orange slow,
+- **Traffic bar (1.25 beta 1+):** line 3 on the HUD is a small coloured bar of the next 15 minutes (blue clear, orange slow,
   red jam), when Zeekret Maps Link 1.4 sends Google Maps' traffic.
 - **Colours follow the %:** 🔋 white from 21 %, **🪫 orange** from 1 to 20 %, **🪫 0% red with a red glow** if you won't
   make it.
