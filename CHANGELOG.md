@@ -2,6 +2,12 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.27 betas (pre-release)
+- **1.27.beta1:** a floating **control panel**. In D, a third round button above the Trailer button opens the Home cards
+  over the screen; a tap does what the Home card does. Car controls send nothing until the car has reported its value.
+  The panel closes 10 s after the last touch, on a touch outside, or on ✕. The app's notification now opens the app,
+  and the Aim live preview works only in P. Keep your eyes on the road: let a passenger use the panel, or stop first.
+
 ## Zeekret Dash 1.27
 - Stability update.
 
