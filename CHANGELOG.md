@@ -3,6 +3,9 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.27 betas (pre-release)
+- **1.27.beta5:** the floating panel covers the **left 87 % of the screen**, full height, and **all its text is twice as
+  big** on every page and card; its Home page still shows 3 columns × 5 rows. Keep your eyes on the road: let a
+  passenger use the panel, or stop first.
 - **1.27.beta4:** the floating panel covers the **left 90 % of the screen**, full height, and its Home page shows the
   cards in **3 columns** (5 rows), like the app's own screen. The **Trailer button is gone for now**; the panel's button
   takes its spot, and Trailer mode is on the panel's Home page. Keep your eyes on the road: let a passenger use the
