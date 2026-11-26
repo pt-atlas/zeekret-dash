@@ -3,6 +3,9 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.27 betas (pre-release)
+- **1.27.beta10:** **update notice.** Zeekret Dash now checks zeekret.pages.dev every few hours while its pages are
+  open; when a newer version is out, Home shows a card with **Download** and **Later**. Cars on a beta are told about new
+  betas and releases, cars on a release only about releases. Earlier versions can't do this: install this one once by hand.
 - **1.27.beta9:** the HUD's **time left** now counts to the middle of Google's arrival minute ("Arrive 20:05" can mean
   20:05:00-20:05:59), so it no longer reads a minute under Google Maps / Android Auto about half the time. Pairs with
   **Zeekret Maps Link 1.5**, which sends a new arrival time to the car at once instead of up to 15 s later.
