@@ -3,6 +3,10 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.27 betas (pre-release)
+- **1.27.beta8:** on the HUD, the battery panel's **top line shows only the arrival time** (🏁 07:24); the line below
+  reads **time left · km left · battery at arrival** (18 min · 23.4 km · 🔋 76%), with only the battery part in orange
+  or red when it is low. The floating panel sits **7 % in from the top and bottom** (left 3 %, right edge 89 %).
+  Keep your eyes on the road: let a passenger use the panel, or stop first.
 - **1.27.beta7:** the floating panel sits **3 % in from the left, top and bottom** edges; its right edge stays at
   89 % of the screen. Its text is a little smaller (90 % of beta 6). Keep your eyes on the road: let a passenger use
   the panel, or stop first.
