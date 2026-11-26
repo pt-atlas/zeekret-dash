@@ -3,6 +3,9 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.27 betas (pre-release)
+- **1.27.beta9:** the HUD's **time left** now counts to the middle of Google's arrival minute ("Arrive 20:05" can mean
+  20:05:00-20:05:59), so it no longer reads a minute under Google Maps / Android Auto about half the time. Pairs with
+  **Zeekret Maps Link 1.5**, which sends a new arrival time to the car at once instead of up to 15 s later.
 - **1.27.beta8:** on the HUD, the battery panel's **top line shows only the arrival time** (🏁 07:24); the line below
   reads **time left · km left · battery at arrival** (18 min · 23.4 km · 🔋 76%), with only the battery part in orange
   or red when it is low. The floating panel sits **7 % in from the top and bottom** (left 3 %, right edge 89 %).
