@@ -3,6 +3,9 @@
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
 ## Zeekret Dash 1.27 betas (pre-release)
+- **1.27.beta7:** the floating panel sits **3 % in from the left, top and bottom** edges; its right edge stays at
+  89 % of the screen. Its text is a little smaller (90 % of beta 6). Keep your eyes on the road: let a passenger use
+  the panel, or stop first.
 - **1.27.beta6:** the floating panel shows **only the Home cards** (no menu), over the **left 89 % of the screen**, full
   height, big text, 3 columns. The **rearview mirror button is gone for now**; the panel's button takes its spot.
   Keep your eyes on the road: let a passenger use the panel, or stop first.
