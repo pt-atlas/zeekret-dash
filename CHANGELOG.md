@@ -2,6 +2,16 @@
 
 Zeekret Dash for the Zeekr 7X head unit. Download the latest from **[zeekret.pages.dev](https://zeekret.pages.dev/)** on the car's screen.
 
+## Zeekret Dash 1.28 (release)
+- **Floating panel for while driving:** in D, the round button (where the mirror button was) opens the Home cards
+  over most of the screen, a little in from the edges, with big text in 3 columns; a tap does what the Home card does.
+  It closes 10 s after the last touch, on a touch outside, or with its button. The button's three lines are now
+  equal and centred. The rearview mirror and Trailer buttons are off for now (Trailer mode is a card in the panel).
+  Keep your eyes on the road: let a passenger use the panel, or stop first.
+- **HUD battery panel:** top line = arrival time (🏁 07:24); below it time left · km left · battery at arrival,
+  only the battery part orange or red when low. Time left follows Google Maps more closely (with Maps Link 1.5).
+- **Update notice:** Home shows a card when a newer version is out on zeekret.pages.dev (Download / Later).
+
 ## Zeekret Dash 1.27 betas (pre-release)
 - **1.27.beta10:** **update notice.** Zeekret Dash now checks zeekret.pages.dev every few hours while its pages are
   open; when a newer version is out, Home shows a card with **Download** and **Later**. Cars on a beta are told about new
